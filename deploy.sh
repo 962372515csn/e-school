@@ -20,7 +20,7 @@ killTomcat()
       kill -9 $pid
     fi
 }
-cd  $PRO_PATH/jekins/
+cd  $PROJ_PATH/jekins/
 mvn clean install
 
 # 停tomcat
@@ -39,5 +39,5 @@ mv ocOperator-1.0.0-SNAPSHOT.war ROOT.war
 
 # 启动Tomcat
 cd $TOMCAT_APP_PATH/
-sh bin/startup.sh
+sudo sh bin/startup.sh
 
