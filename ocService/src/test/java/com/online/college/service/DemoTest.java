@@ -22,10 +22,8 @@ public class DemoTest {
         }
     @Feature("测试")
     @Stories(value = {@Story(value = "性能测试")})
-    @Test(groups = "测试2")
+    @Test(groups = "测试")
         public void testReString(){
             Assert.assertEquals("test","test");
         }
-
-
 }
