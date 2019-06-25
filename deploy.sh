@@ -39,5 +39,5 @@ mv ocOperator-1.0.0-SNAPSHOT.war ROOT.war
 
 # 启动Tomcat
 cd $TOMCAT_APP_PATH/
-sudo sh bin/startup.sh
+sh bin/startup.sh
 
