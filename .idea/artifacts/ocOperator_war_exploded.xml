@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ocOperator:war exploded">
-    <output-path>$PROJECT_DIR$/ocOperator/target/ocOperator</output-path>
+    <output-path>$PROJECT_DIR$/ocOperator/target/ocOperator-1.0.0-SNAPSHOT</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -19,6 +19,8 @@
           <element id="archive" name="ocCommon-1.0.0-SNAPSHOT.jar">
             <element id="module-output" name="ocCommon" />
           </element>
+          <element id="library" level="project" name="Maven: junit:junit:4.10" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.2" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
@@ -78,7 +80,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/ocOperator/target/ocOperator/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/ocOperator/target/ocOperator-1.0.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="ocOperator/web/Web" />
     </root>

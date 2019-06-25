@@ -8,10 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ocCommon" />
         <module name="ocOperator" />
-        <module name="ocPortal" />
-        <module name="ocRest" />
         <module name="ocService" />
-        <module name="ocWechat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
